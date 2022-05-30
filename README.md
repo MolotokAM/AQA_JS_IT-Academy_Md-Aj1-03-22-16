@@ -1,1 +1,2 @@
-# AQA_JS_IT-Academy_Md-Aj1-03-22-16
+  Artur Molotok repository
+# Md-Aj1-03-22-16
