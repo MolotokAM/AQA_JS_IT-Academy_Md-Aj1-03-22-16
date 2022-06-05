@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "fs-extra": "^10.1.0"
+  },
+  "name": "hw",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MolotokAM/AQA_JS_IT-Academy_Md-Aj1-03-22-16.git"
+  },
+  "author": "Artur Molotok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MolotokAM/AQA_JS_IT-Academy_Md-Aj1-03-22-16/issues"
+  },
+  "homepage": "https://github.com/MolotokAM/AQA_JS_IT-Academy_Md-Aj1-03-22-16#readme"
+}
