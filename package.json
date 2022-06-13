@@ -1,11 +1,14 @@
 {
-  "dependencies": {
-    "fs-extra": "^10.1.0"
-  },
-  "name": "hw",
-  "description": "",
+  "name": "hw5",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "hw5.js",
+  "dependencies": {
+    "graceful-fs": "^4.2.10",
+    "jsonfile": "^6.1.0",
+    "fs-extra": "^10.1.0",
+    "universalify": "^2.0.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
