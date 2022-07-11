@@ -1,0 +1,18 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "author": "MolotokAM",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  },
+  "dependencies": {
+    "jest-html-reporter": "^3.5.0",
+    "jest-junit": "^14.0.0"
+  }
+}
