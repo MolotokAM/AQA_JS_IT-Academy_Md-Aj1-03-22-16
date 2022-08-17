@@ -1,0 +1,1598 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "tracks": {
+            "type": "object",
+            "properties": {
+                "hits": {
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "track": {
+                                    "type": "object",
+                                    "properties": {
+                                        "layout": {
+                                            "type": "string"
+                                        },
+                                        "type": {
+                                            "type": "string"
+                                        },
+                                        "key": {
+                                            "type": "string"
+                                        },
+                                        "title": {
+                                            "type": "string"
+                                        },
+                                        "subtitle": {
+                                            "type": "string"
+                                        },
+                                        "share": {
+                                            "type": "object",
+                                            "properties": {
+                                                "subject": {
+                                                    "type": "string"
+                                                },
+                                                "text": {
+                                                    "type": "string"
+                                                },
+                                                "href": {
+                                                    "type": "string"
+                                                },
+                                                "image": {
+                                                    "type": "string"
+                                                },
+                                                "twitter": {
+                                                    "type": "string"
+                                                },
+                                                "html": {
+                                                    "type": "string"
+                                                },
+                                                "avatar": {
+                                                    "type": "string"
+                                                },
+                                                "snapchat": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": [
+                                                "subject",
+                                                "text",
+                                                "href",
+                                                "image",
+                                                "twitter",
+                                                "html",
+                                                "avatar",
+                                                "snapchat"
+                                            ]
+                                        },
+                                        "images": {
+                                            "type": "object",
+                                            "properties": {
+                                                "background": {
+                                                    "type": "string"
+                                                },
+                                                "coverart": {
+                                                    "type": "string"
+                                                },
+                                                "coverarthq": {
+                                                    "type": "string"
+                                                },
+                                                "joecolor": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": [
+                                                "background",
+                                                "coverart",
+                                                "coverarthq",
+                                                "joecolor"
+                                            ]
+                                        },
+                                        "hub": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                },
+                                                "image": {
+                                                    "type": "string"
+                                                },
+                                                "actions": {
+                                                    "type": "array",
+                                                    "items": [
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "name": {
+                                                                    "type": "string"
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                },
+                                                                "id": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "name",
+                                                                "type",
+                                                                "id"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "name": {
+                                                                    "type": "string"
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                },
+                                                                "uri": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "name",
+                                                                "type",
+                                                                "uri"
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                "options": {
+                                                    "type": "array",
+                                                    "items": [
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "caption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "actions": {
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "uri": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "name",
+                                                                                "type",
+                                                                                "uri"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "uri": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "name",
+                                                                                "type",
+                                                                                "uri"
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "beacondata": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "type": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "providername": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "type",
+                                                                        "providername"
+                                                                    ]
+                                                                },
+                                                                "image": {
+                                                                    "type": "string"
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                },
+                                                                "listcaption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "overflowimage": {
+                                                                    "type": "string"
+                                                                },
+                                                                "colouroverflowimage": {
+                                                                    "type": "boolean"
+                                                                },
+                                                                "providername": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "caption",
+                                                                "actions",
+                                                                "beacondata",
+                                                                "image",
+                                                                "type",
+                                                                "listcaption",
+                                                                "overflowimage",
+                                                                "colouroverflowimage",
+                                                                "providername"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "caption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "actions": {
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "uri": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "type",
+                                                                                "uri"
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "beacondata": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "type": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "providername": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "type",
+                                                                        "providername"
+                                                                    ]
+                                                                },
+                                                                "image": {
+                                                                    "type": "string"
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                },
+                                                                "listcaption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "overflowimage": {
+                                                                    "type": "string"
+                                                                },
+                                                                "colouroverflowimage": {
+                                                                    "type": "boolean"
+                                                                },
+                                                                "providername": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "caption",
+                                                                "actions",
+                                                                "beacondata",
+                                                                "image",
+                                                                "type",
+                                                                "listcaption",
+                                                                "overflowimage",
+                                                                "colouroverflowimage",
+                                                                "providername"
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                "providers": {
+                                                    "type": "array",
+                                                    "items": [
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "caption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "images": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "overflow": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "default": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "overflow",
+                                                                        "default"
+                                                                    ]
+                                                                },
+                                                                "actions": {
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "uri": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "name",
+                                                                                "type",
+                                                                                "uri"
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "caption",
+                                                                "images",
+                                                                "actions",
+                                                                "type"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "caption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "images": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "overflow": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "default": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "overflow",
+                                                                        "default"
+                                                                    ]
+                                                                },
+                                                                "actions": {
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "uri": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "name",
+                                                                                "type",
+                                                                                "uri"
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "caption",
+                                                                "images",
+                                                                "actions",
+                                                                "type"
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                "explicit": {
+                                                    "type": "boolean"
+                                                },
+                                                "displayname": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": [
+                                                "type",
+                                                "image",
+                                                "actions",
+                                                "options",
+                                                "providers",
+                                                "explicit",
+                                                "displayname"
+                                            ]
+                                        },
+                                        "artists": {
+                                            "type": "array",
+                                            "items": [
+                                                {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "id": {
+                                                            "type": "string"
+                                                        },
+                                                        "adamid": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "id",
+                                                        "adamid"
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "url": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "layout",
+                                        "type",
+                                        "key",
+                                        "title",
+                                        "subtitle",
+                                        "share",
+                                        "images",
+                                        "hub",
+                                        "artists",
+                                        "url"
+                                    ]
+                                },
+                                "snippet": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "track",
+                                "snippet"
+                            ]
+                        },
+                        {
+                            "type": "object",
+                            "properties": {
+                                "track": {
+                                    "type": "object",
+                                    "properties": {
+                                        "layout": {
+                                            "type": "string"
+                                        },
+                                        "type": {
+                                            "type": "string"
+                                        },
+                                        "key": {
+                                            "type": "string"
+                                        },
+                                        "title": {
+                                            "type": "string"
+                                        },
+                                        "subtitle": {
+                                            "type": "string"
+                                        },
+                                        "share": {
+                                            "type": "object",
+                                            "properties": {
+                                                "subject": {
+                                                    "type": "string"
+                                                },
+                                                "text": {
+                                                    "type": "string"
+                                                },
+                                                "href": {
+                                                    "type": "string"
+                                                },
+                                                "image": {
+                                                    "type": "string"
+                                                },
+                                                "twitter": {
+                                                    "type": "string"
+                                                },
+                                                "html": {
+                                                    "type": "string"
+                                                },
+                                                "avatar": {
+                                                    "type": "string"
+                                                },
+                                                "snapchat": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": [
+                                                "subject",
+                                                "text",
+                                                "href",
+                                                "image",
+                                                "twitter",
+                                                "html",
+                                                "avatar",
+                                                "snapchat"
+                                            ]
+                                        },
+                                        "images": {
+                                            "type": "object",
+                                            "properties": {
+                                                "background": {
+                                                    "type": "string"
+                                                },
+                                                "coverart": {
+                                                    "type": "string"
+                                                },
+                                                "coverarthq": {
+                                                    "type": "string"
+                                                },
+                                                "joecolor": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": [
+                                                "background",
+                                                "coverart",
+                                                "coverarthq",
+                                                "joecolor"
+                                            ]
+                                        },
+                                        "hub": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                },
+                                                "image": {
+                                                    "type": "string"
+                                                },
+                                                "actions": {
+                                                    "type": "array",
+                                                    "items": [
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "name": {
+                                                                    "type": "string"
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                },
+                                                                "id": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "name",
+                                                                "type",
+                                                                "id"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "name": {
+                                                                    "type": "string"
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                },
+                                                                "uri": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "name",
+                                                                "type",
+                                                                "uri"
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                "options": {
+                                                    "type": "array",
+                                                    "items": [
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "caption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "actions": {
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "uri": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "name",
+                                                                                "type",
+                                                                                "uri"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "uri": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "name",
+                                                                                "type",
+                                                                                "uri"
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "beacondata": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "type": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "providername": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "type",
+                                                                        "providername"
+                                                                    ]
+                                                                },
+                                                                "image": {
+                                                                    "type": "string"
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                },
+                                                                "listcaption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "overflowimage": {
+                                                                    "type": "string"
+                                                                },
+                                                                "colouroverflowimage": {
+                                                                    "type": "boolean"
+                                                                },
+                                                                "providername": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "caption",
+                                                                "actions",
+                                                                "beacondata",
+                                                                "image",
+                                                                "type",
+                                                                "listcaption",
+                                                                "overflowimage",
+                                                                "colouroverflowimage",
+                                                                "providername"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "caption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "actions": {
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "uri": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "type",
+                                                                                "uri"
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "beacondata": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "type": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "providername": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "type",
+                                                                        "providername"
+                                                                    ]
+                                                                },
+                                                                "image": {
+                                                                    "type": "string"
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                },
+                                                                "listcaption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "overflowimage": {
+                                                                    "type": "string"
+                                                                },
+                                                                "colouroverflowimage": {
+                                                                    "type": "boolean"
+                                                                },
+                                                                "providername": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "caption",
+                                                                "actions",
+                                                                "beacondata",
+                                                                "image",
+                                                                "type",
+                                                                "listcaption",
+                                                                "overflowimage",
+                                                                "colouroverflowimage",
+                                                                "providername"
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                "providers": {
+                                                    "type": "array",
+                                                    "items": [
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "caption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "images": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "overflow": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "default": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "overflow",
+                                                                        "default"
+                                                                    ]
+                                                                },
+                                                                "actions": {
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "uri": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "name",
+                                                                                "type",
+                                                                                "uri"
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "caption",
+                                                                "images",
+                                                                "actions",
+                                                                "type"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "caption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "images": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "overflow": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "default": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "overflow",
+                                                                        "default"
+                                                                    ]
+                                                                },
+                                                                "actions": {
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "uri": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "name",
+                                                                                "type",
+                                                                                "uri"
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "caption",
+                                                                "images",
+                                                                "actions",
+                                                                "type"
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                "explicit": {
+                                                    "type": "boolean"
+                                                },
+                                                "displayname": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": [
+                                                "type",
+                                                "image",
+                                                "actions",
+                                                "options",
+                                                "providers",
+                                                "explicit",
+                                                "displayname"
+                                            ]
+                                        },
+                                        "artists": {
+                                            "type": "array",
+                                            "items": [
+                                                {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "id": {
+                                                            "type": "string"
+                                                        },
+                                                        "adamid": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "id",
+                                                        "adamid"
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "url": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "layout",
+                                        "type",
+                                        "key",
+                                        "title",
+                                        "subtitle",
+                                        "share",
+                                        "images",
+                                        "hub",
+                                        "artists",
+                                        "url"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "track"
+                            ]
+                        },
+                        {
+                            "type": "object",
+                            "properties": {
+                                "track": {
+                                    "type": "object",
+                                    "properties": {
+                                        "layout": {
+                                            "type": "string"
+                                        },
+                                        "type": {
+                                            "type": "string"
+                                        },
+                                        "key": {
+                                            "type": "string"
+                                        },
+                                        "title": {
+                                            "type": "string"
+                                        },
+                                        "subtitle": {
+                                            "type": "string"
+                                        },
+                                        "share": {
+                                            "type": "object",
+                                            "properties": {
+                                                "subject": {
+                                                    "type": "string"
+                                                },
+                                                "text": {
+                                                    "type": "string"
+                                                },
+                                                "href": {
+                                                    "type": "string"
+                                                },
+                                                "image": {
+                                                    "type": "string"
+                                                },
+                                                "twitter": {
+                                                    "type": "string"
+                                                },
+                                                "html": {
+                                                    "type": "string"
+                                                },
+                                                "snapchat": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": [
+                                                "subject",
+                                                "text",
+                                                "href",
+                                                "image",
+                                                "twitter",
+                                                "html",
+                                                "snapchat"
+                                            ]
+                                        },
+                                        "images": {
+                                            "type": "object",
+                                            "properties": {
+                                                "background": {
+                                                    "type": "string"
+                                                },
+                                                "coverart": {
+                                                    "type": "string"
+                                                },
+                                                "coverarthq": {
+                                                    "type": "string"
+                                                },
+                                                "joecolor": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": [
+                                                "background",
+                                                "coverart",
+                                                "coverarthq",
+                                                "joecolor"
+                                            ]
+                                        },
+                                        "hub": {
+                                            "type": "object",
+                                            "properties": {
+                                                "type": {
+                                                    "type": "string"
+                                                },
+                                                "image": {
+                                                    "type": "string"
+                                                },
+                                                "actions": {
+                                                    "type": "array",
+                                                    "items": [
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "name": {
+                                                                    "type": "string"
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                },
+                                                                "id": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "name",
+                                                                "type",
+                                                                "id"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "name": {
+                                                                    "type": "string"
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                },
+                                                                "uri": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "name",
+                                                                "type",
+                                                                "uri"
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                "options": {
+                                                    "type": "array",
+                                                    "items": [
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "caption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "actions": {
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "uri": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "name",
+                                                                                "type",
+                                                                                "uri"
+                                                                            ]
+                                                                        },
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "uri": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "name",
+                                                                                "type",
+                                                                                "uri"
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "beacondata": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "type": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "providername": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "type",
+                                                                        "providername"
+                                                                    ]
+                                                                },
+                                                                "image": {
+                                                                    "type": "string"
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                },
+                                                                "listcaption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "overflowimage": {
+                                                                    "type": "string"
+                                                                },
+                                                                "colouroverflowimage": {
+                                                                    "type": "boolean"
+                                                                },
+                                                                "providername": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "caption",
+                                                                "actions",
+                                                                "beacondata",
+                                                                "image",
+                                                                "type",
+                                                                "listcaption",
+                                                                "overflowimage",
+                                                                "colouroverflowimage",
+                                                                "providername"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "caption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "actions": {
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "uri": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "type",
+                                                                                "uri"
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "beacondata": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "type": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "providername": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "type",
+                                                                        "providername"
+                                                                    ]
+                                                                },
+                                                                "image": {
+                                                                    "type": "string"
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                },
+                                                                "listcaption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "overflowimage": {
+                                                                    "type": "string"
+                                                                },
+                                                                "colouroverflowimage": {
+                                                                    "type": "boolean"
+                                                                },
+                                                                "providername": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "caption",
+                                                                "actions",
+                                                                "beacondata",
+                                                                "image",
+                                                                "type",
+                                                                "listcaption",
+                                                                "overflowimage",
+                                                                "colouroverflowimage",
+                                                                "providername"
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                "providers": {
+                                                    "type": "array",
+                                                    "items": [
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "caption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "images": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "overflow": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "default": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "overflow",
+                                                                        "default"
+                                                                    ]
+                                                                },
+                                                                "actions": {
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "uri": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "name",
+                                                                                "type",
+                                                                                "uri"
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "caption",
+                                                                "images",
+                                                                "actions",
+                                                                "type"
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "caption": {
+                                                                    "type": "string"
+                                                                },
+                                                                "images": {
+                                                                    "type": "object",
+                                                                    "properties": {
+                                                                        "overflow": {
+                                                                            "type": "string"
+                                                                        },
+                                                                        "default": {
+                                                                            "type": "string"
+                                                                        }
+                                                                    },
+                                                                    "required": [
+                                                                        "overflow",
+                                                                        "default"
+                                                                    ]
+                                                                },
+                                                                "actions": {
+                                                                    "type": "array",
+                                                                    "items": [
+                                                                        {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "name": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "type": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "uri": {
+                                                                                    "type": "string"
+                                                                                }
+                                                                            },
+                                                                            "required": [
+                                                                                "name",
+                                                                                "type",
+                                                                                "uri"
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "type": {
+                                                                    "type": "string"
+                                                                }
+                                                            },
+                                                            "required": [
+                                                                "caption",
+                                                                "images",
+                                                                "actions",
+                                                                "type"
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                "explicit": {
+                                                    "type": "boolean"
+                                                },
+                                                "displayname": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": [
+                                                "type",
+                                                "image",
+                                                "actions",
+                                                "options",
+                                                "providers",
+                                                "explicit",
+                                                "displayname"
+                                            ]
+                                        },
+                                        "artists": {
+                                            "type": "array",
+                                            "items": [
+                                                {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "id": {
+                                                            "type": "string"
+                                                        },
+                                                        "adamid": {
+                                                            "type": "string"
+                                                        }
+                                                    },
+                                                    "required": [
+                                                        "id",
+                                                        "adamid"
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "url": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "layout",
+                                        "type",
+                                        "key",
+                                        "title",
+                                        "subtitle",
+                                        "share",
+                                        "images",
+                                        "hub",
+                                        "artists",
+                                        "url"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "track"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "hits"
+            ]
+        },
+        "artists": {
+            "type": "object",
+            "properties": {
+                "hits": {
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "artist": {
+                                    "type": "object",
+                                    "properties": {
+                                        "avatar": {
+                                            "type": "string"
+                                        },
+                                        "id": {
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "type": "string"
+                                        },
+                                        "verified": {
+                                            "type": "boolean"
+                                        },
+                                        "weburl": {
+                                            "type": "string"
+                                        },
+                                        "adamid": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "avatar",
+                                        "id",
+                                        "name",
+                                        "verified",
+                                        "weburl",
+                                        "adamid"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "artist"
+                            ]
+                        },
+                        {
+                            "type": "object",
+                            "properties": {
+                                "artist": {
+                                    "type": "object",
+                                    "properties": {
+                                        "avatar": {
+                                            "type": "string"
+                                        },
+                                        "id": {
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "type": "string"
+                                        },
+                                        "verified": {
+                                            "type": "boolean"
+                                        },
+                                        "weburl": {
+                                            "type": "string"
+                                        },
+                                        "adamid": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "avatar",
+                                        "id",
+                                        "name",
+                                        "verified",
+                                        "weburl",
+                                        "adamid"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "artist"
+                            ]
+                        },
+                        {
+                            "type": "object",
+                            "properties": {
+                                "artist": {
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "type": "string"
+                                        },
+                                        "verified": {
+                                            "type": "boolean"
+                                        },
+                                        "weburl": {
+                                            "type": "string"
+                                        },
+                                        "adamid": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "id",
+                                        "name",
+                                        "verified",
+                                        "weburl",
+                                        "adamid"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "artist"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "hits"
+            ]
+        }
+    },
+    "required": [
+        "tracks",
+        "artists"
+    ]
+}
